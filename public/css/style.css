@@ -37,16 +37,23 @@ header {
   align-items: center;
 }
 
-h1 {
+header h1 {
   color: white;
-  margin-bottom: 1%;
+  margin-bottom: 0.1rem;
   font-weight: 700;
+  font-size: 2.5rem;
 }
 
-h3 {
+header h2 {
   color: white;
-  margin-top: 1%;
-  font-weight: 600;
+  margin-top: 0.1rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+
+header input {
+  margin-top: 0.4rem;
 }
 
 .learnmore {
@@ -55,10 +62,56 @@ h3 {
   color: white;
   border-radius: 20%/50%;
   height: 13%;
-  width: 20%;
+  width: 80px;
   font-weight: 600;
   font-size: 0.5rem;
   text-align: center;
+}
+
+.section1, .section3 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 5%;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 5%;
+}
+
+section span {
+  display: block;
+}
+
+.section1 p, .section3 p {
+  padding: 0% 24% 0% 0%;
+}
+
+.section1 h3, .section3 h3 {
+  padding: 0% 24% 0% 0%;
+}
+
+.section2 p {
+  padding: 0% 0% 0% 24%;
+}
+
+.section2 h3 {
+  padding: 0% 0% 0% 24%;
+}
+
+img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+main h3 {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
